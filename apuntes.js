@@ -20,6 +20,11 @@ Clicks, activar la pagina, overs con el raton.
 hooks
 Se usan todos estos recursos, se usan mejor para trabajar con los componentes. con un hook podemos crear cada uno de estos elemntos previos.
 
+para instalar react
+npm install react react-dom
+
+src vive nuestra app
+public archivos publicos
 
 
 */
