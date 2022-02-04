@@ -35,4 +35,5 @@ loaders y plugin
 babel loader htmlloader html-webpackplugin
 npm install babel-loader html-loader html-webpack-plugin
 
+npm install mini-css-extract-plugin css-loader style-loader sass -D
 */
