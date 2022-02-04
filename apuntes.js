@@ -26,5 +26,13 @@ npm install react react-dom
 src vive nuestra app
 public archivos publicos
 
+Babel
+transpilador
+
+webpack
+
+loaders y plugin
+babel loader htmlloader html-webpackplugin
+npm install babel-loader html-loader html-webpack-plugin
 
 */
