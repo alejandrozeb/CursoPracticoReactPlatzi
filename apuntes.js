@@ -36,4 +36,33 @@ babel loader htmlloader html-webpackplugin
 npm install babel-loader html-loader html-webpack-plugin
 
 npm install mini-css-extract-plugin css-loader style-loader sass -D
+
+----------identificacndo  componentes------------
+
+pages
+containers send email 2, login 3, createAccount 4, create new password 5, 
+components cards 6, linkperfil clase7, sidebar 8, ventas 9, ventas macro 10, lestf side 11,  
+
+-----------atomic design------------------------------------
+Permite trabajar con componentes
+Atomos representacion de pequeños atomos
+moleculas -> representan la union de un bloque con componentes
+organismos -> son elementos claves como un header de ejemplo tinen componentes logo, buscador y otros.
+templates-> asociano de organismos 
+pages-> alfinal tenemos las paginas 
+
+React se optimiza con este tipo de diseño por el dom virtual asi afectamos solo al compoonente o atomo.
+
+el componente logo varia depeden de l tamño de vp
+
+el header puede ser separado en componentes.
+
+el carrito iugalmente puede ser separado en componentes
+
+produc list es un template 
+
+dibujar identificando los elementos.
+
+
+
 */
