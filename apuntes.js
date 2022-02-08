@@ -63,6 +63,6 @@ produc list es un template
 
 dibujar identificando los elementos.
 
-
-
+-------------------------------------------------------------
+pages rutas
 */

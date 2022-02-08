@@ -6,6 +6,13 @@ import NotFound from '../pages/NotFound';
 import Home from '../pages/Home';
 import RecoveryPassword from '../containers/RecoveryPassword';
 import '../styles/global.css';
+import PasswordRecovery from '../pages/PasswordRecovery';
+import SendEmail from '../pages/SendEmail';
+import NewPassword from '../pages/NewPassword';
+import MyAccount from '../pages/MyAccount';
+import CreateAccount from '../pages/CreateAccount';
+import Checkout from '../pages/Checkout';
+import Orders from '../pages/Orders';
 const App = () =>{
     return(
         <BrowserRouter>
@@ -14,6 +21,13 @@ const App = () =>{
                     <Route path="/" element={<Home/>} />
                     <Route path="/login" element={<Login/>} />
                     <Route path="/recovery-password" element={<RecoveryPassword />} />
+                    <Route path="/password-recovery" component={<PasswordRecovery/>}/>
+                    <Route path="/send-email" component={<SendEmail/>}/>
+                    <Route path="/new-password" component={<NewPassword/>}/>
+                    <Route path="/account" component={<MyAccount/>}/>
+                    <Route path="/signup" component={<CreateAccount/>}/>
+                    <Route path="/checkout" component={<Checkout/>}/>
+                    <Route path="/orders" component={<Orders/>}/>
                     <Route path="*"  element={<NotFound/>} /> 
                 </Routes>
             </Layout>
