@@ -65,4 +65,50 @@ dibujar identificando los elementos.
 
 -------------------------------------------------------------
 pages rutas
+
+--------------------tipos de componentes en react------
+stateless permite trabajar con un estado
+const buttom = ({text}) => <ButtomRed text={text}/>
+text es un texto para llenar el componente o cambia
+
+statefull
+ const [name, setName] = useState('Hola Mundo');
+ return(    
+     <div>
+      <h1>{name}<h1/>
+     <div/>
+ );
+podemos cambiar con el setName
+
+clase
+extiende de un componente
+
+Class App extends component{
+    constructor(){
+        super();
+        this.state = {
+            count=0;
+        }
+    }
+
+    render(){
+     return(
+         <div>hola<div/>
+     );
+    }
+}
+
+high order 
+reciben un componente y extiende su funcionalidad, son funciones
+
+function ComponentWrapper(WarpperComponent){
+
+    class Wrapper extends Component{
+        render(){
+            return <WrapperComponent {... this.props}/>
+        }
+    }
+    return wrapper
+}
+
 */
