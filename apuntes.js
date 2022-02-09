@@ -111,4 +111,8 @@ function ComponentWrapper(WarpperComponent){
     return wrapper
 }
 
+-------------------------alias--------------------------
+podemos crear diferentes alias para piezas claves del proyecto
+
+
 */
