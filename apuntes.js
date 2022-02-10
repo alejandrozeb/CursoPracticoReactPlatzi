@@ -114,5 +114,6 @@ function ComponentWrapper(WarpperComponent){
 -------------------------alias--------------------------
 podemos crear diferentes alias para piezas claves del proyecto
 
-
+npm install @babel/plugin-transform-runtime
+para babel pueda usar async await
 */
