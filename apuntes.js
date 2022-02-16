@@ -119,4 +119,13 @@ para babel pueda usar async await
 
 ------------------hooks------------------------------
 logica separada para llamar informacion
+
+-------react context-----------------------
+context permite conectar toda la app y acceder desde cualquier parte
+
+redux se enfoca en el flujo de datos
+el context solo se trta de accesibilidad de la informacion
+
+con el provider podemos encapsular la infromacion
+
 */
