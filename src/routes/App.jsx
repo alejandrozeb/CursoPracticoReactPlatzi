@@ -16,23 +16,25 @@ import Orders from '../pages/Orders';
 import AppContext from "../context/AppContext";
 const App = () =>{
     return(
-        <BrowserRouter>
-            <Layout>
-                <Routes>
-                    <Route path="/" element={<Home/>} />
-                    <Route path="/login" element={<Login/>} />
-                    <Route path="/recovery-password" element={<RecoveryPassword />} />
-                    <Route path="/password-recovery" component={<PasswordRecovery/>}/>
-                    <Route path="/send-email" component={<SendEmail/>}/>
-                    <Route path="/new-password" component={<NewPassword/>}/>
-                    <Route path="/account" component={<MyAccount/>}/>
-                    <Route path="/signup" component={<CreateAccount/>}/>
-                    <Route path="/checkout" component={<Checkout/>}/>
-                    <Route path="/orders" component={<Orders/>}/>
-                    <Route path="*"  element={<NotFound/>} /> 
-                </Routes>
-            </Layout>
-        </BrowserRouter>
+        <AppContext.Provider value={''}>
+            <BrowserRouter>
+                <Layout>
+                    <Routes>
+                        <Route path="/" element={<Home/>} />
+                        <Route path="/login" element={<Login/>} />
+                        <Route path="/recovery-password" element={<RecoveryPassword />} />
+                        <Route path="/password-recovery" component={<PasswordRecovery/>}/>
+                        <Route path="/send-email" component={<SendEmail/>}/>
+                        <Route path="/new-password" component={<NewPassword/>}/>
+                        <Route path="/account" component={<MyAccount/>}/>
+                        <Route path="/signup" component={<CreateAccount/>}/>
+                        <Route path="/checkout" component={<Checkout/>}/>
+                        <Route path="/orders" component={<Orders/>}/>
+                        <Route path="*"  element={<NotFound/>} /> 
+                    </Routes>
+                </Layout>
+            </BrowserRouter>
+        </AppContext.Provider>
     );
 }
 
